@@ -1,6 +1,6 @@
 <template>
     <div class="my-10" id="Produtos">
-        <div class="flex justify-center mx-4">
+        <div class="mx-4">
             <p class="font-bold text-2xl text-center lg:text-3xl">Trabalhamos com marcas de alta qualidade</p>
         </div>
 
