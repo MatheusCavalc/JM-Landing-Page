@@ -21,8 +21,10 @@ const config = {
             <div v-if="slide == 1" class="min-h-screen bg-home-first bg-cover bg-center">
                 <div class="bg-gradient-to-b from-[#00000081] to-[#00000081] h-screen flex flex-col gap-5 lg:gap-3 justify-center items-center px-8 lg:px-36">
                   
-                      <img src="../assets/images/JM-logo.png" 
+                      <div class="px-2 py-2 backdrop-blur-md bg-white/30 rounded-lg">
+                        <img src="../assets/images/JM-logo.png" 
                           class="w-80" alt="">
+                      </div>
 
                       <p class="text-white font-light text-xl underline decoration-[#FAF900] underline-offset-4">Desde xxxx levando o melhor para o seu negócio</p>
 
