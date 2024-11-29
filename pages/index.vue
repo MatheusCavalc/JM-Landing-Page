@@ -16,6 +16,8 @@
 
         <ScrollingBanner />
 
+        <Clients />
+
         <div class="h-screen">
 
         </div>

@@ -35,7 +35,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-    <nav :class="{ 'bg-[#FAF900] text-black': isNavbarOpaque, 'text-[#FAF900]': isHidden, 'text-[#FAF900]': !isHidden }"
+    <nav :class="{ 'bg-[#FAF900] text-black': isNavbarOpaque || menu, 'text-[#FAF900]': isHidden, 'text-[#FAF900]': !isHidden }"
         class="fixed top-0 z-30 w-full transition duration-300 ease-in-out">
         <div class="flex flex-wrap items-center justify-between max-w-screen-2xl px-1 lg:px-4 py-3 lg:py-0 mx-auto">
             <NuxtLink to="/" class="flex items-center lg:gap-1">
@@ -53,7 +53,7 @@ onBeforeUnmount(() => {
             </div>
             -->
 
-            <div class="flex lg:order-2 stroke-[#FAF900] transition duration-300 ease-in-out" :class="{'stroke-black': isNavbarOpaque}">
+            <div class="flex lg:order-2 stroke-[#FAF900] transition duration-300 ease-in-out" :class="{'stroke-black': isNavbarOpaque || menu}">
                 <button @click="menu = !menu" :class="{ 'opened': menu}"
                     class="inline-flex items-center justify-center w-10 h-10 p-1 text-sm rounded-lg lg:hidden">
                     <svg width="100" height="100" viewBox="0 0 100 100">
