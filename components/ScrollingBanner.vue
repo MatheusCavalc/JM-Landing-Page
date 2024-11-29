@@ -1,7 +1,7 @@
 <template>
     <div class="my-10" id="Produtos">
         <div class="mx-4">
-            <p class="font-bold text-2xl text-center lg:text-3xl">Trabalhamos com marcas de alta qualidade</p>
+            <p class="text-2xl lg:text-3xl font-bold text-center">Trabalhamos com marcas de alta qualidade</p>
         </div>
 
         <div class="tech-slideshow w-full my-5">
