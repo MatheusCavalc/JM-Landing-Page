@@ -1,0 +1,11 @@
+<template>
+    <NuxtPage />
+</template>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+</style>
