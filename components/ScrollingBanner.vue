@@ -1,46 +1,46 @@
 <template>
-    <div class="my-10" id="Produtos">
+    <div class="py-16" id="Produtos">
         <div class="mx-4">
             <p class="text-2xl lg:text-3xl font-bold text-center">Trabalhamos com marcas de alta qualidade</p>
         </div>
 
         <div class="tech-slideshow w-full my-5">
             <div class="mover-1 flex items-center gap-16 lg:gap-32">
-                <img src="../assets/images/Ruffles-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Ruffles-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Fandangos-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Fandangos-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Lays-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Lays-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Cheetos-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Cheetos-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Doritos-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Doritos-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Elma-Chips-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Elma-Chips-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Toddy-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Toddy-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Kero-Coco-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Kero-Coco-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/quaker-logo.png" class="h-24 object-cover">
+                <img src="../assets/images/quaker-logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Ruffles-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Ruffles-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Fandangos-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Fandangos-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Lays-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Lays-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Cheetos-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Cheetos-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Doritos-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Doritos-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Elma-Chips-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Elma-Chips-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Toddy-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Toddy-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/Kero-Coco-Logo.png" class="h-24 object-cover">
+                <img src="../assets/images/Kero-Coco-Logo.png" class="h-20 lg:h-24 object-cover">
                     
-                <img src="../assets/images/quaker-logo.png" class="h-24 object-cover">
+                <img src="../assets/images/quaker-logo.png" class="h-20 lg:h-24 object-cover">
             </div>
 
         </div>

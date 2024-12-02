@@ -84,10 +84,10 @@ onBeforeUnmount(() => {
                             </button>
                         </li>
                     </a>
-                    <a href="#Clientes">
+                    <a href="#Parceiros">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
-                                Clientes
+                                Parceiros
                             </button>
                         </li>
                     </a>
@@ -132,7 +132,7 @@ onBeforeUnmount(() => {
                         <a href="#Produtos" class="hover:underline me-4 md:me-6">Produtos</a>
                     </li>
                     <li>
-                        <a href="#Clientes" class="hover:underline me-4 md:me-6">Clientes</a>
+                        <a href="#Parceiros" class="hover:underline me-4 md:me-6">Parceiros</a>
                     </li>
                     <li>
                         <a href="#Diferenciais" class="hover:underline me-4 md:me-6">Diferenciais</a>
