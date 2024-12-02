@@ -124,7 +124,7 @@ onBeforeUnmount(() => {
                     Distribuidora</span>
                 </NuxtLink>
                 <ul
-                    class="flex flex-wrap items-center mb-6 text-sm font-medium text-black sm:mb-0">
+                    class="grid grid-cols-2 gap-5 lg:gap-x-5 items-center mb-6 font-medium text-black sm:mb-0">
                     <li>
                         <a href="#Sobre" class="hover:underline me-4 md:me-6">Sobre</a>
                     </li>
@@ -143,7 +143,7 @@ onBeforeUnmount(() => {
                 </ul>
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
-            <span class="block text-sm text-gray-700 sm:text-center">© 2024 <a
+            <span class="block text-sm text-gray-800 sm:text-center">© 2024 <a
                     href="/" class="hover:underline">JM Distribuidora™</a>. All Rights Reserved.</span>
         </div>
     </footer>

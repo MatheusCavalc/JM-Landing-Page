@@ -5,7 +5,7 @@
         </div>
 
         <div class="flex justify-center">
-            <img src="../assets/images/Região-Atendida-Clientes-Mapa-Atualizado.png" class="h-80 sm:h-[450px] lg:h-[800px] object-cover" alt=""
+            <img alt="Mapa da região atendida e principais parceiros" src="../assets/images/Região-Atendida-Clientes-Mapa-Atualizado.png" class="h-80 sm:h-[450px] lg:h-[800px] object-cover"
                 srcset="">
         </div>
 
