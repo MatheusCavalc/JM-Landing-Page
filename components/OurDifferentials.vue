@@ -14,7 +14,7 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
 
                 <div class="flex justify-center">
                     <img src="../assets/images/Pepsico-Logo.png"
-                        class="w-10" alt="">
+                        class="h-4 lg:h-6" alt="">
                 </div>
 
                 <h5 class="mb-2 text-center text-xl lg:text-2xl font-bold tracking-tight text-gray-900">
