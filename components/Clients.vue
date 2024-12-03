@@ -1,5 +1,5 @@
 <template>
-    <div id="Parceiros" class="py-16 px-4 lg:px-20">
+    <div id="Parceiros" class="py-20 px-4 lg:px-20">
         <div>
             <p class="text-2xl lg:text-3xl font-black text-center">Nossos principais <span class="text-[#E40001]">parceiros</span></p>
         </div>

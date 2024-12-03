@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import WhatsappIcon from '~/assets/icons/WhatsappIcon.vue';
+import MailIcon from '~/assets/icons/MailIcon.vue';
 
 const menu = ref(false)
 
@@ -112,7 +112,13 @@ onBeforeUnmount(() => {
         </div>
     </nav>
 
-    <div>        
+    <div class="relative">
+        <div class="z-50 p-2 fixed animate-bounce bottom-4 right-4 rounded-full bg-[#FAF900]">
+            <a href="mailto:jm@jmdistribuidora.com.br" target="_blank">
+                <MailIcon class="size-10" />
+            </a>
+        </div>
+
         <slot />
     </div>
 

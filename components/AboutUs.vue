@@ -1,6 +1,6 @@
 <template>
-    <div id="Sobre" class="py-14 px-4 lg:px-20 space-y-5">
-        <div class="my-5">
+    <div id="Sobre" class="py-20 px-4 lg:px-20 space-y-5">
+        <div>
             <p class="text-2xl lg:text-3xl font-black mb-4">Sobre nós</p>
 
             <div class="lg:text-lg space-y-3">

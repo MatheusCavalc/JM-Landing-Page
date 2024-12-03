@@ -3,7 +3,7 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
 </script>
 
 <template>
-    <div id="Diferenciais" class="py-16 px-4 lg:px-28 bg-[#E40001]">
+    <div id="Diferenciais" class="py-20 px-4 lg:px-28 bg-[#E40001]">
         <p class="text-2xl lg:text-3xl font-black text-center">Nossos <span class="text-[#FAF900]">diferenciais</span>
         </p>
 

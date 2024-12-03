@@ -1,5 +1,5 @@
 <template>
-    <div class="py-10 my-6 bg-[#FAF900]" id="Produtos">
+    <div class="py-20 my-6 bg-[#FAF900]" id="Produtos">
         <div class="mx-4">
             <p class="text-2xl lg:text-3xl font-black text-center">Trabalhamos com marcas de alta <span class="underline decoration-[#E40001]">qualidade</span></p>
         </div>
