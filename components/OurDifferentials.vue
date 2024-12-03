@@ -10,23 +10,23 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
         <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 my-10">
 
             <div
-                class="block max-w-sm p-6 bg-white space-y-4 border border-gray-200 rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                class="block max-w-sm p-6 bg-white space-y-4 border border-gray-200 rounded-lg shadow-lg hover:bg-gray-100">
 
                 <div class="flex justify-center">
                     <img src="https://th.bing.com/th/id/R.ddee3fbffe75debdd5c40a664fa81841?rik=lMsZuzs%2btsCvjg&pid=ImgRaw&r=0"
                         class="h-10" alt="">
                 </div>
 
-                <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900">
                     Distribuidora Pepsico
                 </h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+                <p class="font-normal text-gray-700">Here are the biggest enterprise technology
                     acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
 
 
             <div
-                class="block max-w-sm p-6 bg-white border space-y-4 border-gray-200 rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                class="block max-w-sm p-6 bg-white border space-y-4 border-gray-200 rounded-lg shadow-lg hover:bg-gray-100">
 
                 <div class="flex justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -36,16 +36,16 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
                     </svg>
                 </div>
 
-                <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900">
                     Pronta Entrega
                 </h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+                <p class="font-normal text-gray-700">Here are the biggest enterprise technology
                     acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
 
 
             <div
-                class="block max-w-sm p-6 bg-white border space-y-4 border-gray-200 rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                class="block max-w-sm p-6 bg-white border space-y-4 border-gray-200 rounded-lg shadow-lg hover:bg-gray-100">
 
                 <div class="flex justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -55,16 +55,16 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
                     </svg>
                 </div>
 
-                <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900">
                     Pré Venda
                 </h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+                <p class="font-normal text-gray-700">Here are the biggest enterprise technology
                     acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
 
 
             <div
-                class="block max-w-sm p-6 space-y-4 bg-white border border-gray-200 rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                class="block max-w-sm p-6 space-y-4 bg-white border border-gray-200 rounded-lg shadow-lg hover:bg-gray-100">
 
                 <div class="flex justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -73,30 +73,30 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
                     </svg>
                 </div>
 
-                <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Satisfação
+                <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900">Satisfação
                     garantida
                 </h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+                <p class="font-normal text-gray-700">Here are the biggest enterprise technology
                     acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
 
 
             <div
-                class="block max-w-sm p-6 space-y-4 bg-white border border-gray-200 rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                class="block max-w-sm p-6 space-y-4 bg-white border border-gray-200 rounded-lg shadow-lg hover:bg-gray-100">
 
                 <div class="flex justify-center">
                     <HandshakeIcon class="size-10" />
                 </div>
 
-                <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Descontos e Parcerias
+                <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900">Descontos e Parcerias
                 </h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+                <p class="font-normal text-gray-700">Here are the biggest enterprise technology
                     acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
 
 
             <div
-                class="block max-w-sm p-6 bg-white border border-gray-200 space-y-4 rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                class="block max-w-sm p-6 bg-white border border-gray-200 space-y-4 rounded-lg shadow-lg hover:bg-gray-100">
 
                 <div class="flex justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -106,11 +106,11 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
                     </svg>
                 </div>
 
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-center text-gray-900">
                     Certificado Pepsico
                 </h5>
 
-                <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+                <p class="font-normal text-gray-700">Here are the biggest enterprise technology
                     acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
 
