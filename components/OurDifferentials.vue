@@ -7,20 +7,20 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
         <p class="text-2xl lg:text-3xl font-black text-center">Nossos <span class="text-[#FAF900]">diferenciais</span>
         </p>
 
-        <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 my-10">
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4 my-10">
 
             <div
                 class="block max-w-sm p-6 bg-white space-y-4 border border-gray-200 rounded-lg shadow-lg hover:bg-gray-100">
 
                 <div class="flex justify-center">
-                    <img src="https://th.bing.com/th/id/R.ddee3fbffe75debdd5c40a664fa81841?rik=lMsZuzs%2btsCvjg&pid=ImgRaw&r=0"
-                        class="h-10" alt="">
+                    <img src="../assets/images/Pepsico-Logo.png"
+                        class="w-10" alt="">
                 </div>
 
-                <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900">
+                <h5 class="mb-2 text-center text-xl lg:text-2xl font-bold tracking-tight text-gray-900">
                     Distribuidora Pepsico
                 </h5>
-                <p class="font-normal text-gray-700">Here are the biggest enterprise technology
+                <p class="text-sm font-normal text-gray-700">Here are the biggest enterprise technology
                     acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
 
@@ -36,10 +36,10 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
                     </svg>
                 </div>
 
-                <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900">
+                <h5 class="mb-2 text-center text-xl lg:text-2xl font-bold tracking-tight text-gray-900">
                     Pronta Entrega
                 </h5>
-                <p class="font-normal text-gray-700">Here are the biggest enterprise technology
+                <p class="text-sm font-normal text-gray-700">Here are the biggest enterprise technology
                     acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
 
@@ -55,10 +55,10 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
                     </svg>
                 </div>
 
-                <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900">
+                <h5 class="mb-2 text-center text-xl lg:text-2xl font-bold tracking-tight text-gray-900">
                     Pré Venda
                 </h5>
-                <p class="font-normal text-gray-700">Here are the biggest enterprise technology
+                <p class="text-sm font-normal text-gray-700">Here are the biggest enterprise technology
                     acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
 
@@ -73,10 +73,10 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
                     </svg>
                 </div>
 
-                <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900">Satisfação
+                <h5 class="mb-2 text-center text-xl lg:text-2xl font-bold tracking-tight text-gray-900">Satisfação
                     garantida
                 </h5>
-                <p class="font-normal text-gray-700">Here are the biggest enterprise technology
+                <p class="text-sm font-normal text-gray-700">Here are the biggest enterprise technology
                     acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
 
@@ -90,7 +90,7 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
 
                 <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900">Descontos e Parcerias
                 </h5>
-                <p class="font-normal text-gray-700">Here are the biggest enterprise technology
+                <p class="text-sm font-normal text-gray-700">Here are the biggest enterprise technology
                     acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
 
@@ -106,11 +106,11 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
                     </svg>
                 </div>
 
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-center text-gray-900">
+                <h5 class="mb-2 text-xl lg:text-2xl font-bold tracking-tight text-center text-gray-900">
                     Certificado Pepsico
                 </h5>
 
-                <p class="font-normal text-gray-700">Here are the biggest enterprise technology
+                <p class="text-sm font-normal text-gray-700">Here are the biggest enterprise technology
                     acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
 
