@@ -18,8 +18,8 @@
 
         <Clients />
 
-        <div class="h-screen">
+        <OurDifferentials />
 
-        </div>
+        <ContactUs />
     </NuxtLayout>
 </template>

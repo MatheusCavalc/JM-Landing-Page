@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
+import WhatsappIcon from '~/assets/icons/WhatsappIcon.vue';
 
 const menu = ref(false)
 
@@ -40,9 +41,9 @@ onBeforeUnmount(() => {
         <div class="flex flex-wrap items-center justify-between max-w-screen-2xl px-1 lg:px-4 py-3 lg:py-0 mx-auto">
             <NuxtLink to="/" class="flex items-center lg:gap-1">
                 <img class="w-12 lg:w-16" src="../assets/images/JM-logo-simples.png" alt="">
-                <span
-                    class="self-center text-xl font-semibold lg:text-2xl italic whitespace-nowrap px-3 lg:px-0" :class="{ 'text-black': isNavbarOpaque }">
-                Distribuidora</span>
+                <span class="self-center text-xl font-semibold lg:text-2xl italic whitespace-nowrap px-3 lg:px-0"
+                    :class="{ 'text-black': isNavbarOpaque }">
+                    Distribuidora</span>
             </NuxtLink>
 
             <!--
@@ -53,8 +54,9 @@ onBeforeUnmount(() => {
             </div>
             -->
 
-            <div class="flex lg:order-2 stroke-[#FAF900] transition duration-300 ease-in-out" :class="{'stroke-black': isNavbarOpaque || menu}">
-                <button @click="menu = !menu" :class="{ 'opened': menu}"
+            <div class="flex lg:order-2 stroke-[#FAF900] transition duration-300 ease-in-out"
+                :class="{ 'stroke-black': isNavbarOpaque || menu }">
+                <button @click="menu = !menu" :class="{ 'opened': menu }"
                     class="inline-flex items-center justify-center w-10 h-10 p-1 text-sm rounded-lg lg:hidden">
                     <svg width="100" height="100" viewBox="0 0 100 100">
                         <path class="line line1"
@@ -110,7 +112,7 @@ onBeforeUnmount(() => {
         </div>
     </nav>
 
-    <div>
+    <div>        
         <slot />
     </div>
 
@@ -119,12 +121,11 @@ onBeforeUnmount(() => {
             <div class="space-y-5 sm:flex sm:items-center sm:justify-between">
                 <NuxtLink to="/" class="flex items-center lg:gap-1">
                     <img class="w-12 lg:w-16" src="../assets/images/JM-logo-simples.png" alt="">
-                    <span
-                        class="self-center text-xl font-semibold lg:text-2xl italic whitespace-nowrap px-3 lg:px-0" :class="{ 'text-black': isNavbarOpaque }">
-                    Distribuidora</span>
+                    <span class="self-center text-xl font-semibold lg:text-2xl italic whitespace-nowrap px-3 lg:px-0"
+                        :class="{ 'text-black': isNavbarOpaque }">
+                        Distribuidora</span>
                 </NuxtLink>
-                <ul
-                    class="grid grid-cols-2 gap-5 lg:gap-x-5 items-center mb-6 font-medium text-black sm:mb-0">
+                <ul class="grid grid-cols-2 gap-5 lg:gap-x-5 items-center mb-6 font-medium text-black sm:mb-0">
                     <li>
                         <a href="#Sobre" class="hover:underline me-4 md:me-6">Sobre</a>
                     </li>
@@ -143,8 +144,8 @@ onBeforeUnmount(() => {
                 </ul>
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
-            <span class="block text-sm text-gray-800 sm:text-center">© 2024 <a
-                    href="/" class="hover:underline">JM Distribuidora™</a>. All Rights Reserved.</span>
+            <span class="block text-sm text-gray-800 sm:text-center">© 2024 <a href="/" class="hover:underline">JM
+                    Distribuidora™</a>. All Rights Reserved.</span>
         </div>
     </footer>
 </template>

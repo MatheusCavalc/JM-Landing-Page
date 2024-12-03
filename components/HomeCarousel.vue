@@ -44,7 +44,7 @@ const config = {
               </NuxtLink>
 
               <NuxtLink to="/">
-                <TelephoneIcon class="w-10 fill-white transition duration-300 ease-in-out hover:scale-125" />
+                <TelephoneIcon class="w-10 transition duration-300 ease-in-out hover:scale-125" />
               </NuxtLink>
             </div>
 
