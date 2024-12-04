@@ -5,19 +5,20 @@ const endereço = ""
 const cidade = ""
 const bairro = ""
 const telefone = ""
-const produtos = ""
+const assunto = ""
 
 const sendEmail = () => {
     const subject = encodeURIComponent('Contato via Landing Page');
-    const body = encodeURIComponent(`Nome: ${nome}\n` + `Estabelecimento: ${estabelecimento}\n` + `Endereço: ${endereço}\n` + `Cidade: ${cidade}\n` + `Bairro: ${bairro}\n` + `Telefone: ${telefone}\n` + `Produtos de Interesse: ${produtos}\n\n` + `Prezado(a) ${nome},\n\n` + `Gostaríamos de expressar nosso interesse em nos tornar clientes da JM Distribuidora. Somos um estabelecimento localizado em ${address}, no bairro ${neighborhood}, na cidade de ${city}. Nosso telefone para contato é ${phone}.\n\n` + `Estamos interessados em adquirir os produtos da Pepsico distribuídos pela JM Distribuidora, pois acreditamos que a qualidade e a variedade dos produtos oferecidos atenderão perfeitamente às necessidades dos nossos clientes. Acreditamos que uma parceria com a JM Distribuidora será benéfica para ambos os lados, permitindo-nos oferecer produtos de alta qualidade e fortalecer nossa posição no mercado.\n\n` + `Aguardamos ansiosamente a oportunidade de discutir essa parceria e estamos à disposição para quaisquer informações adicionais que possam ser necessárias.\n\n` + `Atenciosamente,\n` + `${nome}`);
+    const body = encodeURIComponent(`Nome: ${nome}\n` + `Estabelecimento: ${estabelecimento}\n` + `Endereço: ${endereço}\n` + `Cidade: ${cidade}\n` + `Bairro: ${bairro}\n` + `Telefone: ${telefone}\n\n` + `${assunto}`);
     const mailtoLink = `mailto:jm@jmdistribuidora.com.br?subject=${subject}&body=${body}`;
+
+    console.log(nome)
     window.location.href = mailtoLink;
 };
 </script>
 
 <template>
     <div id="Contato" class="py-20 px-4 lg:px-28">
-
         <div>
             <p class="text-2xl lg:text-3xl font-black text-center">Entre em contato com a gente</p>
         </div>
@@ -80,17 +81,15 @@ const sendEmail = () => {
 
             <div>
                 <label for="message" class="block mb-2 text-sm text-gray-500">Assunto</label>
-                <textarea id="message" rows="4" v-model="produtos"
+                <textarea id="message" rows="4" v-model="assunto"
                     class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
                     placeholder=""></textarea>
             </div>
 
             <div class="flex justify-end mt-5">
-                <a :href="`mailto:jm@jmdistribuidora.com.br?subject=${subject}&body=${body}`" target="_blank">
-                    <button
-                        class="bg-[#FAF900] hover:bg-yellow-400 focus:outline-none font-medium rounded-full text-sm w-full sm:w-auto px-5 py-2.5 text-center">Entrar
-                        em Contato</button>
-                </a>
+                <button type="submit"
+                    class="bg-[#FAF900] hover:bg-yellow-400 focus:outline-none font-medium rounded-full text-sm w-full sm:w-auto px-5 py-2.5 text-center">Entrar
+                    em Contato</button>
             </div>
         </form>
     </div>
