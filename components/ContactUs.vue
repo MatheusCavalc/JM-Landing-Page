@@ -11,7 +11,7 @@ const assunto = ref("")
 
 const sendEmail = () => {
     const subject = encodeURIComponent('Contato via Landing Page');
-    const body = encodeURIComponent(`Nome: ${nome}\n` + `Estabelecimento: ${estabelecimento}\n` + `Endereço: ${endereço}\n` + `Cidade: ${cidade}\n` + `Bairro: ${bairro}\n` + `Telefone: ${telefone}\n\n` + `${assunto}`);
+    const body = encodeURIComponent(`Nome: ${nome.value}\n` + `Estabelecimento: ${estabelecimento.value}\n` + `Endereço: ${endereço.value}\n` + `Cidade: ${cidade.value}\n` + `Bairro: ${bairro.value}\n` + `Telefone: ${telefone.value}\n\n` + `${assunto.value}`);
     const mailtoLink = `mailto:jm@jmdistribuidora.com.br?subject=${subject}&body=${body}`;
 
     //console.log(body, nome)
