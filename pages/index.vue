@@ -21,5 +21,11 @@
         <OurDifferentials />
 
         <ContactUs />
+
+        <div class="flex justify-center place-items-center pb-10">
+            <div class="w-56 h-2 rounded-full bg-gradient-to-r from-[#E40001] to-[#FAF900]"></div>
+        </div>
+
+        <WorkWIthUs />
     </NuxtLayout>
 </template>

@@ -71,7 +71,7 @@ onBeforeUnmount(() => {
             <div :class="{ 'lg:block': menu, 'hidden lg:block': !menu }" class="w-full lg:w-auto lg:order-1"
                 id="navbar-default">
                 <ul :class="{ 'bg-[#FAF900]': isNavbarOpaque, '': !isNavbarOpaque, 'text-black': isNavbarOpaque }"
-                    class="flex flex-col p-4 mt-4 font-normal border border-gray-100 rounded-lg lg:p-0 lg:flex-row lg:space-x-14 lg:mt-0 lg:border-0 lg:bg-transparent transition duration-300 ease-in-out lg:transition-none">
+                    class="flex flex-col p-4 mt-4 font-normal border border-gray-100 rounded-lg lg:p-0 lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 lg:bg-transparent transition duration-300 ease-in-out lg:transition-none">
                     <a href="#Sobre">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
@@ -107,6 +107,13 @@ onBeforeUnmount(() => {
                             </button>
                         </li>
                     </a>
+                    <a href="#TrabalheConosco">
+                        <li>
+                            <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
+                                Trabalhe Conosco
+                            </button>
+                        </li>
+                    </a>
                 </ul>
             </div>
         </div>
@@ -131,7 +138,7 @@ onBeforeUnmount(() => {
                         :class="{ 'text-black': isNavbarOpaque }">
                         Distribuidora</span>
                 </NuxtLink>
-                <ul class="grid grid-cols-2 gap-5 lg:gap-x-5 items-center mb-6 font-medium text-black sm:mb-0">
+                <ul class="grid grid-cols-2 gap-5 lg:gap-x-5 items-center mb-6 text-white font-medium text-black sm:mb-0">
                     <li>
                         <a href="#Sobre" class="hover:underline me-4 md:me-6">Sobre</a>
                     </li>
