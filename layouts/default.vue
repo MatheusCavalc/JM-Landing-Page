@@ -72,42 +72,42 @@ onBeforeUnmount(() => {
                 id="navbar-default">
                 <ul :class="{ 'bg-[#FAF900]': isNavbarOpaque, '': !isNavbarOpaque, 'text-black': isNavbarOpaque }"
                     class="flex flex-col p-4 mt-4 font-normal border border-gray-100 rounded-lg lg:p-0 lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 lg:bg-transparent transition duration-300 ease-in-out lg:transition-none">
-                    <a href="#Sobre">
+                    <a @click="menu = !menu" href="#Sobre">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
                                 Sobre
                             </button>
                         </li>
                     </a>
-                    <a href="#Produtos">
+                    <a @click="menu = !menu" href="#Produtos">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
                                 Produtos
                             </button>
                         </li>
                     </a>
-                    <a href="#Parceiros">
+                    <a @click="menu = !menu" href="#Parceiros">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
                                 Parceiros
                             </button>
                         </li>
                     </a>
-                    <a href="#Diferenciais">
+                    <a @click="menu = !menu" href="#Diferenciais">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
                                 Diferenciais
                             </button>
                         </li>
                     </a>
-                    <a href="#Contato">
+                    <a @click="menu = !menu" href="#Contato">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
                                 Contato
                             </button>
                         </li>
                     </a>
-                    <a href="#TrabalheConosco">
+                    <a @click="menu = !menu" href="#TrabalheConosco">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
                                 Trabalhe Conosco
@@ -134,11 +134,12 @@ onBeforeUnmount(() => {
             <div class="space-y-5 sm:flex sm:items-center sm:justify-between">
                 <NuxtLink to="/" class="flex items-center lg:gap-1">
                     <img class="w-12 lg:w-16" src="../assets/images/JM-logo-simples.png" alt="">
-                    <span class="self-center text-xl font-semibold lg:text-2xl italic whitespace-nowrap px-3 lg:px-0"
+                    <span
+                        class="self-center text-white text-xl font-semibold lg:text-2xl italic whitespace-nowrap px-3 lg:px-0"
                         :class="{ 'text-black': isNavbarOpaque }">
                         Distribuidora</span>
                 </NuxtLink>
-                <ul class="grid grid-cols-2 gap-5 lg:gap-x-5 items-center mb-6 text-white font-medium text-black sm:mb-0">
+                <ul class="grid grid-cols-2 gap-5 lg:gap-x-5 items-center mb-6 text-white font-medium sm:mb-0">
                     <li>
                         <a href="#Sobre" class="hover:underline me-4 md:me-6">Sobre</a>
                     </li>
@@ -153,6 +154,9 @@ onBeforeUnmount(() => {
                     </li>
                     <li>
                         <a href="#Contato" class="hover:underline me-4 md:me-6">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#TrabalheConosco" class="hover:underline me-4 md:me-6">Trabalhe com a gente</a>
                     </li>
                 </ul>
             </div>

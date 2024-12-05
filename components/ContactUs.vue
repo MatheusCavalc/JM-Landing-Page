@@ -14,7 +14,6 @@ const sendEmail = () => {
     const body = encodeURIComponent(`Nome: ${nome.value}\n` + `Estabelecimento: ${estabelecimento.value}\n` + `Endereço: ${endereço.value}\n` + `Cidade: ${cidade.value}\n` + `Bairro: ${bairro.value}\n` + `Telefone: ${telefone.value}\n\n` + `${assunto.value}`);
     const mailtoLink = `mailto:jm@jmdistribuidora.com.br?subject=${subject}&body=${body}`;
 
-    //console.log(body, nome)
     window.location.href = mailtoLink;
 };
 </script>

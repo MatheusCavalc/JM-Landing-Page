@@ -22,11 +22,12 @@ const config = {
           <div
             class="bg-gradient-to-b from-[#00000081] to-[#00000081] h-screen flex flex-col gap-5 lg:gap-3 justify-center items-center px-8 lg:px-36">
 
-            <div class="px-2 py-2 backdrop-blur-md bg-white/30 rounded-lg">
+            <div
+              class="flex bg-gradient-to-r from-[#E40001] to-[#FAF900] justify-center items-center rounded-lg px-6 py-2">
               <img src="../assets/images/JM-logo.png" class="w-80" alt="">
             </div>
 
-            <p class="text-white font-light text-xl underline decoration-[#FAF900] underline-offset-4">
+            <p class="text-white font-bold text-xl underline underline-offset-4">
               Desde 1999 levando o melhor para o seu negócio
             </p>
 
@@ -66,8 +67,8 @@ const config = {
 
             <div class="order-1 lg:order-2">
               <img
-                src="https://th.bing.com/th/id/R.ddee3fbffe75debdd5c40a664fa81841?rik=lMsZuzs%2btsCvjg&pid=ImgRaw&r=0"
-                class="w-60 bg-white rounded-md p-8" alt="">
+                src="https://sejatrainee.com.br/wp-content/uploads/2021/09/Capas-artigos-2021-09-24T174336.113.png"
+                class="w-60 lg:w-96 object-cover bg-white rounded-md" alt="">
             </div>
 
           </div>
