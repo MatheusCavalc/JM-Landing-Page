@@ -120,7 +120,7 @@ onBeforeUnmount(() => {
     </nav>
 
     <div class="relative">
-        <div class="z-50 p-2 fixed animate-bounce bottom-4 right-4 rounded-full bg-[#FAF900]">
+        <div class="z-50 p-2 fixed animate-bounce bottom-4 right-4 rounded-full bg-[#FAF900] hover:bg-yellow-400 transition-all duration-300 ease-in-out">
             <a href="mailto:jm@jmdistribuidora.com.br" target="_blank">
                 <MailIcon class="size-10" />
             </a>

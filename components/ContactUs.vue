@@ -89,7 +89,7 @@ const sendEmail = () => {
 
             <div class="flex justify-end mt-5">
                 <button type="submit"
-                    class="bg-[#FAF900] hover:bg-yellow-400 focus:outline-none font-medium rounded-full text-sm w-full sm:w-auto px-5 py-2.5 text-center">Entrar
+                    class="bg-[#FAF900] hover:bg-yellow-400 transition-all duration-300 ease-in-out focus:outline-none font-medium rounded-full text-sm w-full sm:w-auto px-5 py-2.5 text-center">Entrar
                     em Contato</button>
             </div>
         </form>
