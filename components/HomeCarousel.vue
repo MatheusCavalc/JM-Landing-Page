@@ -56,7 +56,7 @@ const config = {
           <div
             class="bg-gradient-to-b from-[#00000081] to-[#00000081] h-screen flex flex-col lg:flex-row gap-10 justify-center lg:justify-between items-center px-8 lg:px-36">
 
-            <div class="space-y-5 lg:w-96 text-start order-2 lg:order-1">
+            <div class="space-y-5 w-80 lg:w-[450px] text-start order-2 lg:order-1 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-600 px-6 py-4">
               <p class="text-white font-bold text-3xl">Distribuidora PepsiCo</p>
 
               <p class="text-white font-light">
@@ -68,7 +68,7 @@ const config = {
             <div class="order-1 lg:order-2">
               <img
                 src="https://sejatrainee.com.br/wp-content/uploads/2021/09/Capas-artigos-2021-09-24T174336.113.png"
-                class="w-60 lg:w-96 object-cover bg-white rounded-md" alt="">
+                class="w-72 lg:w-96 object-cover bg-white rounded-md" alt="">
             </div>
 
           </div>
@@ -90,6 +90,6 @@ const config = {
 }
 
 .bg-home-second {
-  background-image: url('https://www.arabianbusiness.com/cloud/2021/09/15/np5yYxq7-PepsiCo-food-and-beverage-768x335.jpg');
+  background-image: url('https://www.embalagemmarca.com.br/wp-content/uploads/2019/09/salgadinhos.jpg');
 }
 </style>
