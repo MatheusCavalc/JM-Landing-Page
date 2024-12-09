@@ -1,12 +1,14 @@
 <template>
     <div id="Parceiros" class="py-20 px-4 lg:px-20">
         <div>
-            <p class="text-2xl lg:text-3xl font-black text-center">Nossos principais <span class="text-[#E40001]">parceiros</span></p>
+            <p class="text-2xl lg:text-3xl font-black text-center">Nossos principais <span
+                    class="text-[#E40001]">parceiros</span></p>
         </div>
 
         <div class="flex justify-center">
-            <img alt="Mapa da região atendida e principais parceiros" src="../assets/images/Região-Atendida-Clientes-Mapa-Atualizado.png" class="h-80 sm:h-[450px] lg:h-[800px] object-cover"
-                srcset="">
+            <img alt="Mapa da região atendida e principais parceiros"
+                src="../assets/images/Região-Atendida-Limpo-Clientes.png"
+                class="h-80 sm:h-[450px] lg:h-[800px] object-cover" srcset="">
         </div>
 
         <div class="space-y-3 lg:text-lg">
@@ -21,7 +23,12 @@
                     <span class="font-bold">Americanas</span>: Canindé, Limoeiro, Morada Nova, Pedra Branca, Pentecoste,
                     Quixadá, Russas e Boa Viagem
                 </li>
-                
+
+                <li>
+                    <span class="font-bold">Pague Menos</span>: Quixeramobim, Limoeiro do Norte, Canindé, Russas,
+                    Quixadá, Morada Nova e Boa Viagem
+                </li>
+
                 <li>
                     <span class="font-bold">Supermercado Pinheiro</span>: Aracati, Limoeiro, Quixeramobim e Quixadá
                 </li>
