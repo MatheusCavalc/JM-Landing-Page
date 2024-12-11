@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
+import JMLogo from '~/assets/icons/JMLogo.vue';
 import MailIcon from '~/assets/icons/MailIcon.vue';
 
 const menu = ref(false)
@@ -10,7 +11,7 @@ let lastScrollTop = 0;
 const isNavbarOpaque = ref(false);
 
 const handleScroll = () => {
-    const scrollThreshold = 100;
+    const scrollThreshold = 80;
     isNavbarOpaque.value = window.scrollY > scrollThreshold;
 
     const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -40,7 +41,8 @@ onBeforeUnmount(() => {
         class="fixed top-0 z-30 w-full transition duration-300 ease-in-out">
         <div class="flex flex-wrap items-center justify-between max-w-screen-2xl px-1 lg:px-4 py-3 lg:py-0 mx-auto">
             <NuxtLink to="/" class="flex items-center lg:gap-1">
-                <img class="w-12 lg:w-16" src="../assets/images/JM-logo-simples.png" alt="">
+                <JMLogo class="w-12 lg:w-16" :class="{ 'fill-[#FAF900]': !isNavbarOpaque, 'fill-black': isNavbarOpaque }" />
+
                 <span class="self-center text-xl font-semibold lg:text-2xl italic whitespace-nowrap px-3 lg:px-0"
                     :class="{ 'text-black': isNavbarOpaque }">
                     Distribuidora</span>
@@ -133,7 +135,7 @@ onBeforeUnmount(() => {
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="space-y-5 sm:flex sm:items-center sm:justify-between">
                 <NuxtLink to="/" class="flex items-center lg:gap-1">
-                    <img class="w-12 lg:w-16" src="../assets/images/JM-logo-simples.png" alt="">
+                    <JMLogo class="w-12 lg:w-16 fill-[#FAF900]" />
                     <span
                         class="self-center text-white text-xl font-semibold lg:text-2xl italic whitespace-nowrap px-3 lg:px-0"
                         :class="{ 'text-black': isNavbarOpaque }">
