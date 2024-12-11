@@ -82,7 +82,7 @@ onMounted(() => {
 
                 <div class="flex justify-center mt-2">
                     <button @click="sendEmail()"
-                        class="bg-[#E40001] hover:bg-red-500 transition-all duration-300 ease-in-out text-white focus:outline-none font-medium rounded-full text-sm w-full sm:w-auto px-5 py-2.5 text-center">
+                        class="bg-[#E40001] hover:bg-red-500 w-fit transition-all duration-300 ease-in-out text-white focus:outline-none font-medium rounded-full text-sm w-full sm:w-auto px-5 py-2.5 text-center">
                         Envie seu currículo
                     </button>
                 </div>
