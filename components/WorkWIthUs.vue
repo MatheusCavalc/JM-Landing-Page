@@ -1,4 +1,6 @@
 <script setup>
+import { onMounted } from 'vue';
+
 const sendEmail = () => {
     const subject = encodeURIComponent('Quero trabalhar na JM');
     const body = encodeURIComponent('Segue em anexo o curriculo em formato PDF\n\n');
@@ -6,14 +8,52 @@ const sendEmail = () => {
 
     window.location.href = mailtoLink;
 }
+
+const debounce = (func, wait, immediate) => {
+    let timeout;
+    return function (...args) {
+        const context = this;
+        const later = function () {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+        };
+        const callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+    };
+};
+
+const scrollAnimation = () => {
+    const target = document.querySelectorAll('[data-animation]')
+
+    const windowTop = window.pageYOffset + ((window.innerHeight * 4) / 5);
+    target.forEach(function (el) {
+        let rect = el.getBoundingClientRect()
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        let top = rect.top + scrollTop
+
+        if (windowTop > top) {
+            el.classList.add("animate")
+        }
+    })
+}
+
+onMounted(() => {
+    window.addEventListener('scroll', debounce(function () {
+        scrollAnimation();
+    }, 100));
+});
 </script>
 
 <template>
     <div id="TrabalheConosco" class="bg-section bg-cover bg-center h-screen">
         <div class="bg-gradient-to-b from-[#00000081] to-[#E40001] h-full flex flex-col justify-center items-center">
-            <p class="text-2xl lg:text-3xl text-white font-black text-center my-5">Trabalhe com a <span class="text-[#FAF900]">gente</span></p>
+            <div data-animation="left">
+                <p class="text-2xl lg:text-3xl text-white font-black text-center my-5">Trabalhe com a <span
+                        class="text-[#FAF900]">gente</span></p>
 
-            <!--
+                <!--
         <div>
             <div class="flex items-center justify-center w-full">
                 <label for="dropzone-file"
@@ -40,11 +80,12 @@ const sendEmail = () => {
         </div>
         -->
 
-            <div class="flex justify-center mt-2">
-                <button @click="sendEmail()"
-                    class="bg-[#E40001] hover:bg-red-500 transition-all duration-300 ease-in-out text-white focus:outline-none font-medium rounded-full text-sm w-full sm:w-auto px-5 py-2.5 text-center">
-                    Envie seu currículo
-                </button>
+                <div class="flex justify-center mt-2">
+                    <button @click="sendEmail()"
+                        class="bg-[#E40001] hover:bg-red-500 transition-all duration-300 ease-in-out text-white focus:outline-none font-medium rounded-full text-sm w-full sm:w-auto px-5 py-2.5 text-center">
+                        Envie seu currículo
+                    </button>
+                </div>
             </div>
         </div>
     </div>
