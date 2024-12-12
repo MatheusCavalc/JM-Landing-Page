@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue';
+import { ref, onMounted, onBeforeUnmount, computed } from 'vue';
 import JMLogo from '~/assets/icons/JMLogo.vue';
 import MailIcon from '~/assets/icons/MailIcon.vue';
 
@@ -27,6 +27,10 @@ const handleScroll = () => {
     lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
 };
 
+const currentMonth = new Date().getMonth();
+const isJune = computed(() => currentMonth === 5);
+const isDecember = computed(() => currentMonth === 11);
+
 onMounted(() => {
     window.addEventListener('scroll', handleScroll);
 });
@@ -41,9 +45,17 @@ onBeforeUnmount(() => {
         class="fixed top-0 z-30 w-full transition duration-300 ease-in-out">
         <div class="flex flex-wrap items-center justify-between max-w-screen-2xl px-1 lg:px-4 py-3 lg:py-0 mx-auto">
             <NuxtLink to="/" class="flex items-center lg:gap-1">
-                <JMLogo class="w-12 lg:w-16" :class="{ 'fill-[#FAF900]': !isNavbarOpaque, 'fill-black': isNavbarOpaque }" />
 
-                <span class="self-center text-xl font-semibold lg:text-2xl italic whitespace-nowrap px-3 lg:px-0"
+                <JMLogo v-if="!isJune && !isDecember" class="w-12 lg:w-16"
+                    :class="{ 'fill-[#FAF900]': !isNavbarOpaque, 'fill-black': isNavbarOpaque }" />
+
+                <img v-else-if="isJune" src="../assets/images/JM-Logo-Festa-Junina.png"
+                    class="w-12 lg:w-16 mb-1.5 ml-1 lg:ml-0" />
+
+                <img v-else-if="isDecember" src="../assets/images/JM-Logo-Natal.png"
+                    class="w-12 lg:w-16 mb-1.5 ml-1 lg:ml-0" />
+
+                <span class="self-center text-xl font-semibold lg:text-2xl italic whitespace-nowrap"
                     :class="{ 'text-black': isNavbarOpaque }">
                     Distribuidora</span>
             </NuxtLink>
@@ -122,7 +134,8 @@ onBeforeUnmount(() => {
     </nav>
 
     <div class="relative">
-        <div class="z-50 p-2 fixed animate-bounce bottom-4 border border-[#E40001] right-4 rounded-full bg-[#FAF900] hover:bg-yellow-400 transition-all duration-300 ease-in-out">
+        <div
+            class="z-50 p-2 fixed animate-bounce bottom-4 border border-[#E40001] right-4 rounded-full bg-[#FAF900] hover:bg-yellow-400 transition-all duration-300 ease-in-out">
             <a href="mailto:jm@jmdistribuidora.com.br" target="_blank">
                 <MailIcon class="size-10" />
             </a>
