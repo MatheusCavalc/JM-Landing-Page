@@ -46,7 +46,7 @@ const sendEmail = () => {
                             class="w-full max-w-2xl transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
 
                             <div class="flex justify-end">
-                                <CloseIcon class="h-6" @click="closeModal" />
+                                <CloseIcon class="h-6 cursor-pointer" @click="closeModal" />
                             </div>
 
                             <DialogTitle as="h3" class="text-xl font-medium leading-6 text-gray-900">
