@@ -23,12 +23,12 @@ const sendEmail = () => {
 </script>
 
 <template>
-    <div
+    <button
         class="z-10 p-2 fixed animate-bounce bottom-4 border border-[#E40001] right-4 rounded-full bg-[#FAF900] hover:bg-yellow-400 transition-all duration-300 ease-in-out">
         <p class="cursor-pointer" @click="openModal">
             <MailIcon class="size-10" />
         </p>
-    </div>
+    </button>
 
     <TransitionRoot appear :show="isOpen" as="template">
         <Dialog as="div" @close="closeModal" class="relative z-10">
@@ -85,6 +85,4 @@ const sendEmail = () => {
             </div>
         </Dialog>
     </TransitionRoot>
-
-
 </template>

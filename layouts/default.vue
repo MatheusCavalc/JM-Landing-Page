@@ -50,10 +50,10 @@ onBeforeUnmount(() => {
                     :class="{ 'fill-[#FAF900]': !isNavbarOpaque, 'fill-black': isNavbarOpaque }" />
 
                 <img v-else-if="isJune" src="../assets/images/JM-Logo-Festa-Junina.png"
-                    class="w-12 lg:w-16 mb-1.5 ml-1 lg:ml-0" />
+                    class="w-12 lg:w-20 mb-2 ml-1 lg:ml-0" />
 
                 <img v-else-if="isDecember" src="../assets/images/JM-Logo-Natal.png"
-                    class="w-12 lg:w-16 mb-1.5 ml-1 lg:ml-0" />
+                    class="w-12 lg:w-20 mb-2 ml-1 lg:ml-0" />
 
                 <span class="self-center text-xl font-semibold lg:text-2xl italic whitespace-nowrap"
                     :class="{ 'text-black': isNavbarOpaque }">
@@ -166,7 +166,7 @@ onBeforeUnmount(() => {
                         <a href="#Contato" class="hover:underline me-4 md:me-6">Contato</a>
                     </li>
                     <li>
-                        <a href="#TrabalheConosco" class="hover:underline me-4 md:me-6">Trabalhe com a gente</a>
+                        <a href="#TrabalheConosco" class="hover:underline me-4 md:me-6">Trabalhe Conosco</a>
                     </li>
                 </ul>
             </div>
