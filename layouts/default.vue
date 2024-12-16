@@ -41,7 +41,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-    <nav :class="{ 'bg-[#FAF900] text-black': isNavbarOpaque || menu, 'text-[#FAF900]': isHidden, 'text-[#FAF900]': !isHidden }"
+    <nav :class="{ 'bg-[#FAF900] text-black border border-b-black': isNavbarOpaque || menu, 'text-[#FAF900]': isHidden, 'text-[#FAF900]': !isHidden }"
         class="fixed top-0 z-30 w-full transition duration-300 ease-in-out">
         <div class="flex flex-wrap items-center justify-between max-w-screen-2xl px-1 lg:px-4 py-3 lg:py-0 mx-auto">
             <NuxtLink to="/" class="flex items-center lg:gap-1">

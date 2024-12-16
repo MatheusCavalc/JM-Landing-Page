@@ -5,11 +5,7 @@
                     class="text-[#E40001]">parceiros</span></p>
         </div>
 
-        <div class="flex justify-center">
-            <img alt="Mapa da região atendida e principais parceiros"
-                src="../assets/images/Região-Atendida-Limpo-Clientes.png"
-                class="h-80 sm:h-[450px] lg:h-[800px] object-cover" srcset="">
-        </div>
+        <MapClientsImage />
 
         <div class="space-y-3 lg:text-lg">
             <p>
