@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 [data-animation] {
     opacity: 0;
     transition: .3s;
