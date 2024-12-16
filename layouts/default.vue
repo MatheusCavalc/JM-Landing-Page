@@ -41,7 +41,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-    <nav :class="{ 'bg-[#FAF900] text-black border border-b-black': isNavbarOpaque || menu, 'text-[#FAF900]': isHidden, 'text-[#FAF900]': !isHidden }"
+    <nav :class="{ 'bg-[#FAF900] text-black': isNavbarOpaque || menu, 'text-[#FAF900]': isHidden, 'text-[#FAF900]': !isHidden }"
         class="fixed top-0 z-30 w-full transition duration-300 ease-in-out">
         <div class="flex flex-wrap items-center justify-between max-w-screen-2xl px-1 lg:px-4 py-3 lg:py-0 mx-auto">
             <NuxtLink to="/" class="flex items-center lg:gap-1">
@@ -93,35 +93,35 @@ onBeforeUnmount(() => {
                             </button>
                         </li>
                     </a>
-                    <a @click="menu = !menu" href="#Produtos">
+                    <a @click="menu = false" href="#Produtos">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
                                 Produtos
                             </button>
                         </li>
                     </a>
-                    <a @click="menu = !menu" href="#Parceiros">
+                    <a @click="menu = false" href="#Parceiros">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
                                 Parceiros
                             </button>
                         </li>
                     </a>
-                    <a @click="menu = !menu" href="#Diferenciais">
+                    <a @click="menu = false" href="#Diferenciais">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
                                 Diferenciais
                             </button>
                         </li>
                     </a>
-                    <a @click="menu = !menu" href="#Contato">
+                    <a @click="menu = false" href="#Contato">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
                                 Contato
                             </button>
                         </li>
                     </a>
-                    <a @click="menu = !menu" href="#TrabalheConosco">
+                    <a @click="menu = false" href="#TrabalheConosco">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
                                 Trabalhe Conosco
