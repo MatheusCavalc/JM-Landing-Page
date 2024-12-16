@@ -43,4 +43,16 @@ onMounted(() => {
 .image:hover {
   --zoom: 1.4;
 }
+
+@media (max-width: 640px) {
+  .image img {
+    transform: scale(var(--zoom, 1));
+    transition: transform 0.1s ease;
+  }
+
+  .image:hover {
+    --zoom: 2.2;
+    /* Reduz o nível de zoom em telas menores */
+  }
+}
 </style>
