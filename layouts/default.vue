@@ -86,7 +86,7 @@ onBeforeUnmount(() => {
                 id="navbar-default">
                 <ul :class="{ 'bg-[#FAF900]': isNavbarOpaque, '': !isNavbarOpaque, 'text-black': isNavbarOpaque }"
                     class="flex flex-col p-4 mt-4 font-normal border border-gray-100 rounded-lg lg:p-0 lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 lg:bg-transparent transition duration-300 ease-in-out lg:transition-none">
-                    <a @click="menu = !menu" href="#Sobre">
+                    <a @click="menu = false" href="#Sobre">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
                                 Sobre
