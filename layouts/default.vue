@@ -1,7 +1,6 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount, computed } from 'vue';
 import JMLogo from '~/assets/icons/JMLogo.vue';
-import MailIcon from '~/assets/icons/MailIcon.vue';
 
 const menu = ref(false)
 
@@ -44,7 +43,7 @@ onBeforeUnmount(() => {
     <nav :class="{ 'bg-[#FAF900] text-black': isNavbarOpaque || menu, 'text-[#FAF900]': isHidden, 'text-[#FAF900]': !isHidden }"
         class="fixed top-0 z-30 w-full transition duration-300 ease-in-out">
         <div class="flex flex-wrap items-center justify-between max-w-screen-2xl px-1 lg:px-4 py-3 lg:py-0 mx-auto">
-            <NuxtLink to="/" class="flex items-center lg:gap-1">
+            <NuxtLink @click="menu = false" to="/" class="flex items-center lg:gap-1">
 
                 <JMLogo v-if="!isJune && !isDecember" class="w-12 lg:w-16"
                     :class="{ 'fill-[#FAF900]': !isNavbarOpaque, 'fill-black': isNavbarOpaque }" />
@@ -85,7 +84,7 @@ onBeforeUnmount(() => {
             <div :class="{ 'lg:block': menu, 'hidden lg:block': !menu }" class="w-full lg:w-auto lg:order-1"
                 id="navbar-default">
                 <ul :class="{ 'bg-[#FAF900]': isNavbarOpaque, '': !isNavbarOpaque, 'text-black': isNavbarOpaque }"
-                    class="flex flex-col p-4 mt-4 font-normal border border-gray-100 rounded-lg lg:p-0 lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 lg:bg-transparent transition duration-300 ease-in-out lg:transition-none">
+                    class="flex flex-col p-4 mt-4 font-normal border border-[#E40001] rounded-lg lg:p-0 lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 lg:bg-transparent transition duration-300 ease-in-out lg:transition-none">
                     <a @click="menu = false" href="#Sobre">
                         <li>
                             <button class="block py-2 pl-3 pr-4 rounded lg:border-0 lg:py-5">
