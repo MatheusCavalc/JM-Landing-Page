@@ -41,7 +41,7 @@ onMounted(() => {
 }
 
 .image:hover {
-  --zoom: 1.4;
+  --zoom: 2;
 }
 
 @media (max-width: 640px) {

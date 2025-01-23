@@ -24,7 +24,7 @@ const sendEmail = () => {
 
 <template>
     <button @click="openModal"
-        class="z-10 p-2 fixed animate-bounce bottom-4 border border-[#E40001] right-4 rounded-l-full rounded-b-full rounded-tr-xl bg-[#FAF900] hover:bg-yellow-400 transition-all duration-300 ease-in-out">
+        class="z-10 p-2 fixed animate-pulse bottom-4 border border-[#E40001] right-4 rounded-l-full rounded-b-full rounded-tr-xl bg-[#FAF900] hover:bg-yellow-400 transition-all duration-300 ease-in-out">
         <p class="cursor-pointer">
             <MailIcon class="size-10" />
         </p>
@@ -73,7 +73,7 @@ const sendEmail = () => {
 
                                 <div class="mt-4">
                                     <button type="submit"
-                                        class="inline-flex justify-center rounded-md border border-transparent bg-[#E40001] px-4 py-2 text-sm font-medium text-white">
+                                        class="inline-flex justify-center rounded-full border border-transparent bg-[#E40001] px-4 py-2 text-sm font-medium text-white">
                                         Enviar
                                     </button>
                                 </div>

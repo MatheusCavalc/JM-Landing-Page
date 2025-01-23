@@ -49,9 +49,13 @@
                 produtos cheguem a você com a máxima eficiência e frescor.
             </p>
         </div>
-    </div>
 
-    <div>
+        <div class="flex flex-col gap-4 lg:flex-row justify-center lg:justify-between mt-8 mx-8 lg:mx-0">
+            <img src="../assets/images/JM-01.jpeg" class="lg:w-80 rounded-lg border-2 border-[#E40001]" alt="">
 
+            <img src="../assets/images/JM-02.jpeg" class="lg:w-80 rounded-lg border-2 border-black" alt="">
+
+            <img src="../assets/images/JM-03.jpeg" class="lg:w-80 rounded-lg border-2 border-[#FAF900]" alt="">
+        </div>
     </div>
 </template>

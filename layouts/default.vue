@@ -16,10 +16,8 @@ const handleScroll = () => {
     const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
     if (currentScrollTop > lastScrollTop) {
-        // Scroll para baixo
         isHidden.value = true;
     } else {
-        // Scroll para cima
         isHidden.value = false;
     }
 
@@ -138,7 +136,7 @@ onBeforeUnmount(() => {
         <slot />
     </div>
 
-    <footer class="bg-[#E40001]">
+    <footer class="bg-black">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="space-y-5 sm:flex sm:items-center sm:justify-between">
                 <NuxtLink to="/" class="flex items-center lg:gap-1">
@@ -170,7 +168,7 @@ onBeforeUnmount(() => {
                 </ul>
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
-            <span class="block text-sm text-gray-800 sm:text-center">© 2024 <a href="/" class="hover:underline">JM
+            <span class="block text-sm text-white sm:text-center">© 2024 <a href="/" class="hover:underline">JM
                     Distribuidora™</a>. All Rights Reserved.</span>
         </div>
     </footer>

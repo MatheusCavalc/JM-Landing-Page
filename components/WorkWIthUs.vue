@@ -48,7 +48,7 @@ onMounted(() => {
 
 <template>
     <div id="TrabalheConosco" class="bg-section bg-cover bg-center h-screen">
-        <div class="bg-gradient-to-b from-[#00000081] to-[#E40001] h-full flex flex-col justify-center items-center">
+        <div class="bg-gradient-to-b from-[#00000081] to-black h-full flex flex-col justify-center items-center">
             <div data-animation="left">
                 <p class="text-2xl lg:text-3xl text-white font-black text-center my-5">Trabalhe com a <span
                         class="text-[#FAF900]">gente</span></p>
