@@ -7,10 +7,10 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
         <p class="text-2xl lg:text-3xl font-black text-center">Nossos <span class="text-[#FAF900]">diferenciais</span>
         </p>
 
-        <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4 my-10">
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-4 my-10">
 
             <div
-                class="block max-w-sm p-6 bg-white space-y-4 border border-gray-200 rounded-lg shadow-lg hover:scale-105 transition-all hover:border hover:border-[#FAF900]">
+                class="block max-w-sm p-6 bg-white space-y-4 border-2 border-white rounded-lg shadow-lg hover:scale-105 transition-all hover:border-2 hover:border-[#FAF900]">
 
                 <div class="flex justify-center">
                     <img src="../assets/images/Pepsico-Logo.png"
@@ -26,7 +26,7 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
 
 
             <div
-                class="block max-w-sm p-6 bg-white border space-y-4 border-gray-200 rounded-lg shadow-lg hover:scale-105 transition-all hover:border hover:border-[#FAF900]">
+                class="block max-w-sm p-6 bg-white border-2 space-y-4 border-white rounded-lg shadow-lg hover:scale-105 transition-all hover:border-2 hover:border-[#FAF900]">
 
                 <div class="flex justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -45,7 +45,7 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
 
 
             <div
-                class="block max-w-sm p-6 bg-white border space-y-4 border-gray-200 rounded-lg shadow-lg hover:scale-105 transition-all hover:border hover:border-[#FAF900]">
+                class="block max-w-sm p-6 bg-white border-2 space-y-4 border-white rounded-lg shadow-lg hover:scale-105 transition-all hover:border-2 hover:border-[#FAF900]">
 
                 <div class="flex justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -64,7 +64,7 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
 
 
             <div
-                class="block max-w-sm p-6 space-y-4 bg-white border border-gray-200 rounded-lg shadow-lg hover:scale-105 transition-all hover:border hover:border-[#FAF900]">
+                class="block max-w-sm p-6 space-y-4 bg-white border-2 border-white rounded-lg shadow-lg hover:scale-105 transition-all hover:border-2 hover:border-[#FAF900]">
 
                 <div class="flex justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -82,7 +82,7 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
 
 
             <div
-                class="block max-w-sm p-6 space-y-4 bg-white border border-gray-200 rounded-lg shadow-lg hover:scale-105 transition-all hover:border hover:border-[#FAF900]">
+                class="block max-w-sm p-6 space-y-4 bg-white border-2 border-white rounded-lg shadow-lg hover:scale-105 transition-all hover:border-2 hover:border-[#FAF900]">
 
                 <div class="flex justify-center">
                     <HandshakeIcon class="size-10" />
@@ -96,7 +96,7 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
 
 
             <div
-                class="block max-w-sm p-6 bg-white border border-gray-200 space-y-4 rounded-lg shadow-lg hover:scale-105 transition-all hover:border hover:border-[#FAF900]">
+                class="block max-w-sm p-6 bg-white border-2 border-white space-y-4 rounded-lg shadow-lg hover:scale-105 transition-all hover:border-2 hover:border-[#FAF900]">
 
                 <div class="flex justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
