@@ -61,8 +61,7 @@ const config = {
               <p class="text-white font-bold text-3xl">Distribuidora PepsiCo</p>
 
               <p class="text-white font-light">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.
+                Somos uma distribuidora autorizada Pepsico, garantindo produtos originais, com qualidade e procedência certificada.
               </p>
             </div>
 

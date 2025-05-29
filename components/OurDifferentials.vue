@@ -20,10 +20,8 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
                 <h5 class="mb-2 text-center text-xl lg:text-2xl font-bold tracking-tight text-gray-900">
                     Distribuidora Pepsico
                 </h5>
-                <p class="text-sm font-normal text-gray-700">Here are the biggest enterprise technology
-                    acquisitions of 2021 so far, in reverse chronological order.</p>
+                <p class="text-sm font-normal text-gray-700">Somos uma distribuidora autorizada Pepsico, garantindo produtos originais, com qualidade e procedência certificada.</p>
             </div>
-
 
             <div
                 class="block max-w-sm p-6 bg-white border-2 space-y-4 border-white rounded-lg shadow-lg hover:scale-105 transition-all hover:border-2 hover:border-[#FAF900]">
@@ -39,10 +37,8 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
                 <h5 class="mb-2 text-center text-xl lg:text-2xl font-bold tracking-tight text-gray-900">
                     Pronta Entrega
                 </h5>
-                <p class="text-sm font-normal text-gray-700">Here are the biggest enterprise technology
-                    acquisitions of 2021 so far, in reverse chronological order.</p>
+                <p class="text-sm font-normal text-gray-700">Mais agilidade e flexibilidade na reposição de produtos, com visitas regulares e atendimento dinâmico no ponto de venda.</p>
             </div>
-
 
             <div
                 class="block max-w-sm p-6 bg-white border-2 space-y-4 border-white rounded-lg shadow-lg hover:scale-105 transition-all hover:border-2 hover:border-[#FAF900]">
@@ -58,10 +54,8 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
                 <h5 class="mb-2 text-center text-xl lg:text-2xl font-bold tracking-tight text-gray-900">
                     Pré Venda
                 </h5>
-                <p class="text-sm font-normal text-gray-700">Here are the biggest enterprise technology
-                    acquisitions of 2021 so far, in reverse chronological order.</p>
+                <p class="text-sm font-normal text-gray-700">Organização e planejamento para o seu estoque, com entregas programadas e maior assertividade nos pedidos.</p>
             </div>
-
 
             <div
                 class="block max-w-sm p-6 space-y-4 bg-white border-2 border-white rounded-lg shadow-lg hover:scale-105 transition-all hover:border-2 hover:border-[#FAF900]">
@@ -73,13 +67,10 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
                     </svg>
                 </div>
 
-                <h5 class="mb-2 text-center text-xl lg:text-2xl font-bold tracking-tight text-gray-900">Satisfação
-                    garantida
+                <h5 class="mb-2 text-center text-xl lg:text-2xl font-bold tracking-tight text-gray-900">Satisfação garantida
                 </h5>
-                <p class="text-sm font-normal text-gray-700">Here are the biggest enterprise technology
-                    acquisitions of 2021 so far, in reverse chronological order.</p>
+                <p class="text-sm font-normal text-gray-700">Nosso compromisso é com a sua satisfação. Atendimento, produto e entrega com excelência.</p>
             </div>
-
 
             <div
                 class="block max-w-sm p-6 space-y-4 bg-white border-2 border-white rounded-lg shadow-lg hover:scale-105 transition-all hover:border-2 hover:border-[#FAF900]">
@@ -90,10 +81,8 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
 
                 <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900">Descontos e Parcerias
                 </h5>
-                <p class="text-sm font-normal text-gray-700">Here are the biggest enterprise technology
-                    acquisitions of 2021 so far, in reverse chronological order.</p>
+                <p class="text-sm font-normal text-gray-700">Oferecemos condições especiais para parceiros e clientes fidelizados, gerando economia e crescimento mútuo.</p>
             </div>
-
 
             <div
                 class="block max-w-sm p-6 bg-white border-2 border-white space-y-4 rounded-lg shadow-lg hover:scale-105 transition-all hover:border-2 hover:border-[#FAF900]">
@@ -110,10 +99,10 @@ import HandshakeIcon from '~/assets/icons/HandshakeIcon.vue';
                     Certificado Pepsico
                 </h5>
 
-                <p class="text-sm font-normal text-gray-700">Here are the biggest enterprise technology
-                    acquisitions of 2021 so far, in reverse chronological order.</p>
+                <p class="text-sm font-normal text-gray-700">Trabalhamos com excelência e responsabilidade, reconhecidos pela Pepsico com certificações exclusivas.</p>
             </div>
 
         </div>
+
     </div>
 </template>

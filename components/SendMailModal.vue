@@ -13,6 +13,9 @@ function closeModal() {
 }
 function openModal() {
     isOpen.value = true
+
+    //observer clicks in email modal
+    //count.value++
 }
 
 const sendEmail = () => {
